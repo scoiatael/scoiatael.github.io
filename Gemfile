@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 
 gem "middleman", "~>3.3.12"
 
+# Blog for projects
+gem 'middleman-blog'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
@@ -14,3 +17,6 @@ gem 'neat'
 
 # haml instead of ERB
 gem 'haml'
+
+# jQuery
+gem "jquery-middleman"
