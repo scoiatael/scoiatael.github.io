@@ -1,5 +1,5 @@
 $( function() {
-  safe_load($( "#site-link-main" ), "site-link-main.html"); 
+  safe_load($( "#site-link-main" ), "site-link-main.html");
 });
 
 var try_set_events = function() {

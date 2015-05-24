@@ -20,4 +20,3 @@ var set_accordion_events = function() {
   $( "#accordion" ).accordion();
   $( "#projects-accordion" ).accordion();
 };
- 
