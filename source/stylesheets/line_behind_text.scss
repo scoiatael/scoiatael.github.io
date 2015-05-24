@@ -1,0 +1,18 @@
+.line-behind-text {
+  border-bottom: 1px solid #CACACA;
+  text-align: center;
+  margin-bottom: 4.5em;
+}
+
+.line-behind-text * {
+  background: #FFF none repeat scroll 0% 0%;
+  color: #808080;
+  display: inline-block;
+  font-family: "Oswald",sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0px 10px;
+  position: relative;
+  text-transform: uppercase;
+  top: 1.5em;
+}
