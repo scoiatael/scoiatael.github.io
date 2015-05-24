@@ -38,6 +38,18 @@ activate :blog do |blog|
 end
 
 ###
+# React
+###
+
+activate :react do |config|
+  config.harmony = true
+end
+
+after_configuration do
+  sprockets.append_path File.dirname(::React::Source.bundled_path_for('react.js'))
+end
+
+###
 # Helpers
 ###
 

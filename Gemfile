@@ -20,3 +20,6 @@ gem 'haml'
 
 # jQuery
 gem "jquery-middleman"
+
+# React
+gem "middleman-react"
