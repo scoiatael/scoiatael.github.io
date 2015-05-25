@@ -5,6 +5,7 @@
   $hero-background-top: rgba(0, 0, 128, 0.7);
   $hero-background-bottom: rgba(153, 204, 255, 0.7);
   $hero-color: white;
+  $a-color: #870CE8;
   $hero-image: '/images/LofotyBlurred.png';
 
   background: linear-gradient($hero-background-bottom, $hero-background-top), url($hero-image);
@@ -27,6 +28,13 @@
     padding: 3.5em;
     text-align: center;
 
+    #hero-dynamic {
+      #avatar {
+        border-radius: 50%;
+        height: 5em;
+      }
+    }
+
     .hero-copy {
       text-align: center;
 
@@ -47,6 +55,13 @@
         @include media($large-screen) {
           font-size: 1.1em;
           max-width: 40%;
+        }
+      }
+
+      a {
+        color: $a-color;
+        &:hover {
+          color: darken($a-color, 20%);
         }
       }
     }
